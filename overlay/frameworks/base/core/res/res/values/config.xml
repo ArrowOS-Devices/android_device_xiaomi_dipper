@@ -28,6 +28,9 @@
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
 
+    <!-- Whether the device has fingeprint sensor or not -->
+    <bool name="config_hasFingerprintSensor">true</bool>
+
     <!-- Fast brightness animation ramp rate in brightness units per second-->
     <integer translatable="false" name="config_brightness_ramp_rate_fast">200</integer>
 
