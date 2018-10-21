@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
+# Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-common
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
