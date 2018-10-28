@@ -18,6 +18,9 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 5
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
+# Compile with SDClang
+TARGET_USE_SDCLANG := true
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
