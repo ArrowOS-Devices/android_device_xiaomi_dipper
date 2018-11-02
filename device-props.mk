@@ -2,19 +2,9 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
 
-# System property for cabl
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.qualcomm.cabl=0
 # prop for amoled panel
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.display.type=oled
-
-# System property for AD
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.display.ad=1 \
-ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
-ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
-ro.vendor.display.sensortype=2 
 
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.display.enable_default_color_mode=1
