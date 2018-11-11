@@ -21,6 +21,9 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 # Compile with SDClang
 TARGET_USE_SDCLANG := true
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
