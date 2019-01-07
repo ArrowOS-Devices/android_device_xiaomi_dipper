@@ -188,23 +188,22 @@
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results.
          -->
-     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-	M339,0.10000354 
-	L338.438235,0.10000354 
-	C318.287069,0.10000354 303.921221,1.92414004 297.818519,24.176374 
-	L292.311611,44.2307187 
-	C285.295731,69.8076784 267.243762,90 236.156733,90 
-	L0,90 
-	L-236.156733,90 
-	C-267.243762,90 -285.295731,69.8076784 -292.311611,44.2307187 
-	L-297.818519,24.176374 
-	C-303.921221,1.92414004 -318.287069,0.10000354 -338.438235,0.10000354 
-	L-339,0.10000354 
-	L-339,0 
-	L339,0 
-	L339,0.10000354 
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+	M 0,0
+	L318.5,0 
+	C298.348834,0 283.982986,1.8241365 277.880284,24.07637046 
+	L272.373376,44.13071516 
+	C265.357496,69.70767486 247.305527,89.89999646 216.218498,89.89999646 
+	L0,89.89999646	
 	Z
-     </string>
+	M 0,0
+	L-318.5,0 
+	C-298.348834,0 -283.982986,1.8241365 -277.880284,24.07637046 
+	L-272.373376,44.13071516 
+	C-265.357496,69.70767486 -247.305527,89.89999646 -216.218498,89.89999646 
+	L0,89.89999646	
+	Z
+	</string>
 
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">89.0px</dimen>
