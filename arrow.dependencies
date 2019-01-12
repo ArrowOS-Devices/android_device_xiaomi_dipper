@@ -8,7 +8,7 @@
     "target_path": "kernel/xiaomi/sdm845"
   },
   {
-    "repository": "android_vendor_xiaomi_dipper",
+    "repository": "android_vendor_xiaomi_sdm845",
     "target_path": "vendor/xiaomi"
   },
   {
