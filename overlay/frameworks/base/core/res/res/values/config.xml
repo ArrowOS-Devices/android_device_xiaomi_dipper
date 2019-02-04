@@ -31,6 +31,10 @@
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 
+    <!-- True if the display hardware only has brightness buckets rather than a full range of
+         backlight values -->
+    <bool name="config_displayBrightnessBucketsInDoze">true</bool>
+
     <!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
 
@@ -314,7 +318,7 @@
     <integer name="config_screenBrightnessForVrSettingDefault">1376</integer>
     <integer name="config_screenBrightnessForVrSettingMinimum">1264</integer>
     <integer name="config_screenBrightnessForVrSettingMaximum">4095</integer>
-    
+
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
@@ -357,7 +361,7 @@
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
-   
+
    <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
    <bool name="config_ledCanPulse">true</bool>
@@ -382,7 +386,7 @@
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">4</integer>
+    <integer name="config_screenBrightnessDoze">7</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">250</integer>
