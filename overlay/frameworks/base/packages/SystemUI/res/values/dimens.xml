@@ -78,4 +78,7 @@
     <!-- Padding for signal cluster and battery icon when there are not icons in signal cluster -->
     <dimen name="no_signal_cluster_battery_padding">0dp</dimen>
 
+    <!-- Sets a custom extra padding for the QS icons and statusbar date -->
+    <dimen name="qs_items_padding">0dp</dimen>
+
 </resources>
