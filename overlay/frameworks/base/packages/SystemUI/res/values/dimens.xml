@@ -17,11 +17,20 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">9dp</dimen>
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">102.0px</dimen>
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">87.0px</dimen>
+
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">33px</dimen> 
+    <dimen name="status_bar_padding_start">33px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">33px</dimen> 
+    <dimen name="status_bar_padding_end">33px</dimen>
 
 	<!-- more realistic padding -->
     <dimen name="rounded_corner_content_padding">12dp</dimen>
