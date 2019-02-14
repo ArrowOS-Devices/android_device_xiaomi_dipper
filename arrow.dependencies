@@ -12,6 +12,10 @@
     "target_path": "vendor/xiaomi"
   },
   {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  },
+  {
     "repository": "sdclang-6.0",
     "target_path": "vendor/qcom/sdclang-6.0"
   }
