@@ -29,7 +29,7 @@
     <bool name="config_automatic_brightness_available">true</bool>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
 
     <!-- True if the display hardware only has brightness buckets rather than a full range of
          backlight values -->
